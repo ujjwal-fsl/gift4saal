@@ -60,7 +60,7 @@ body {
   
   .background-images img {
     position: absolute;
-    width: 20px; /* Adjust size of flying hearts */
+    width: 23px; /* Adjust size of flying hearts */
     animation: flying-images 6s linear infinite; /* Adjust animation duration */
   }
   
