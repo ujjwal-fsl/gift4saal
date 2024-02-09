@@ -26,6 +26,10 @@ nav {
     font-size: 38px;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 .menu {
     list-style-type: none;
     padding: 0;
