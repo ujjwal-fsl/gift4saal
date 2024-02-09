@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('ostrich-sans-black.eot');
+	src: local('☺'), url('ostrich-sans-black.woff') format('woff'), url('ostrich-sans-black.ttf') format('truetype'), url('ostrich-sans-black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+    background-color: #9933cc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 28px;;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
+  
+  .button-surprise {
+    background-color: #ffd900; /* gold color */
+  }
+  
+  #thirdButton:hover {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+    background-color: #f9b6eb;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+    font-family: Ostrich Sans;
+    font-size: 53px;
+  }

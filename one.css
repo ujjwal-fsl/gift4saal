@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('ostrich-sans-bold.eot');
+	src: local('☺'), url('ostrich-sans-bold.woff') format('woff'), url('ostrich-sans-bold.ttf') format('truetype'), url('ostrich-sans-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    
+    font-family: Ostrich Sans;
+    font-size: 49px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Making the button round */
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #cc66ff;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

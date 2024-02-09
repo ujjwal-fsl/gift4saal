@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('ostrich-sans-black.eot');
+	src: local('☺'), url('ostrich-sans-black.woff') format('woff'), url('ostrich-sans-black.ttf') format('truetype'), url('ostrich-sans-black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD700; /* golden yellow */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .owl-container {
+    margin-bottom: -10px;
+  }
+  
+  .owl {
+    max-width: 100%;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .quote {
+    font-family: Ostrich Sans;
+    font-size: 32px;
+    color: black;
+  }
+  
+  .bottom-text {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  

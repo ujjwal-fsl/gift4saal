@@ -1,0 +1,166 @@
+@import url('httpsfonts.googleapis.comcss2family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFD9D4;
+}
+
+nav {
+    background-color: #FFD9D4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Honk', system-ui;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-toggle {
+    display: none; /* Hide hamburger menu by default */
+}
+
+.hamburger {
+    padding-left: 35px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none; /* Hide regular menu on mobile view */
+    }
+
+    .menu-toggle {
+        display: block; /* Show hamburger menu on mobile view */
+        cursor: pointer;
+    }
+
+    .menu-toggle.show-menu .hamburger {
+        background-color: transparent; /* Hide hamburger lines when menu is open */
+    }
+
+    .menu-toggle.show-menu .hamburger:before,
+    .menu-toggle.show-menu .hamburger:after {
+        content: '';
+        
+        position: absolute;
+    }
+
+    .menu-toggle.show-menu .hamburger:before {
+        transform: rotate(45deg);
+    }
+
+    .menu-toggle.show-menu .hamburger:after {
+        transform: rotate(-45deg);
+    }
+
+    .menu-toggle.show-menu + .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px; /* Adjust as needed */
+        left: 0;
+        width: 100%;
+        background-color: #ffd9d464;
+    }
+
+    .menu-toggle.show-menu + .menu li {
+        margin: 7px 0;
+    }
+}
+
+
+/* image */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 113vh;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: -10px; /* Add some space between the photo and text */
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px; /* Add some space between the heading and paragraph */
+  }
+  
+  p {
+    font-size: 16px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+
+/* audio */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -400px;
+  }
+  
+  #circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .emoji {
+    font-size: 70px;
+  }
+  
